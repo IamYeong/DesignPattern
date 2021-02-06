@@ -11,8 +11,8 @@ import android.widget.Toast;
 
 public class Singleton extends AppCompatActivity {
 
-    Button btn;
-    TextView textView;
+    private Button btn;
+    private TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

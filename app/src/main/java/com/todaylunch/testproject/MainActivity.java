@@ -12,9 +12,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btn_singleton, btn_strategy;
-
-
+    private Button btn_singleton, btn_strategy;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -16,11 +16,11 @@ import java.util.ArrayList;
 
 public class StrategyPattern extends AppCompatActivity {
 
-    Button btn_one;
-    TextView tv_strategy;
-    Spinner spr;
-    ArrayAdapter<Integer> arrayAdapter;
-    ArrayList<Integer> arrayList = new ArrayList<>();
+    private Button btn_one;
+    private TextView tv_strategy;
+    private Spinner spr;
+    private ArrayAdapter<Integer> arrayAdapter;
+    private ArrayList<Integer> arrayList = new ArrayList<>();
 
 
     @Override

@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Singleton"></activity>
+        <activity android:name=".FactoryActivity"></activity>
+        <activity android:name=".Singleton" />
         <activity android:name=".StrategyPattern" />
         <activity android:name=".MainActivity">
             <intent-filter>
