@@ -69,7 +69,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_proxy.setOnClickListener(this);
         btn_flyweight.setOnClickListener(this);
 
-
     }
 
     @Override

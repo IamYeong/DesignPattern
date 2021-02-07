@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FlyweightActivity"></activity>
+        <activity android:name=".AbstractFactoryActivity"></activity>
+        <activity android:name=".FlyweightActivity" />
         <activity android:name=".ProxyActivity" />
         <activity android:name=".FacadeActivity" />
         <activity android:name=".DecoratorActivity" />
@@ -26,7 +27,6 @@
         <activity android:name=".ChainOfResponsibilityActivity" />
         <activity android:name=".PrototypeActivity" />
         <activity android:name=".BuilderActivity" />
-        <activity android:name=".AbstractFactoryActivity" />
         <activity android:name=".ObserverActivity" />
         <activity android:name=".FactoryActivity" />
         <activity android:name=".Singleton" />

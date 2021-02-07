@@ -11,6 +11,10 @@ public class AbstractFactoryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_abstract_factory);
 
+        System.out.println(AbstractCarFactory.buildCar(CarType.Small));
+        System.out.println(AbstractCarFactory.buildCar(CarType.Sedan));
+        System.out.println(AbstractCarFactory.buildCar(CarType.Luxury));
+
 
 
     }
