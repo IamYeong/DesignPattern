@@ -39,4 +39,15 @@
 
         />
 
+    <Button
+        android:id="@+id/btn_observer_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OBSERVER"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/btn_factory_main"
+        />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

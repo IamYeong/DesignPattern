@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ObserverActivity">
+
+    <EditText
+        android:id="@+id/et_observer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <Button
+        android:id="@+id/btn_observer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INPUT"
+
+        app:layout_constraintTop_toBottomOf="@id/et_observer"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tv_observer_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="observer One"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_observer"
+        />
+
+    <TextView
+        android:id="@+id/tv_observer_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="observer Two"
+
+        android:layout_marginTop="20dp"
+
+        app:layout_constraintTop_toBottomOf="@id/tv_observer_one"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_observer_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="observer Three"
+
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_observer_two"
+
+        />
+
+    <Button
+        android:id="@+id/btn_observer_one_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="ADD"
+
+        app:layout_constraintLeft_toRightOf="@id/tv_observer_one"
+        app:layout_constraintTop_toTopOf="@id/tv_observer_one"
+        />
+
+    <Button
+        android:id="@+id/btn_observer_one_remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="REMOVE"
+
+        app:layout_constraintTop_toTopOf="@id/tv_observer_one"
+        app:layout_constraintLeft_toRightOf="@id/btn_observer_one_add"
+        />
+
+    <Button
+        android:id="@+id/btn_observer_two_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+
+        app:layout_constraintTop_toTopOf="@id/tv_observer_two"
+        app:layout_constraintLeft_toRightOf="@id/tv_observer_two"
+        />
+
+    <Button
+        android:id="@+id/btn_observer_two_remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REMOVE"
+
+        app:layout_constraintTop_toTopOf="@id/tv_observer_two"
+        app:layout_constraintLeft_toRightOf="@id/btn_observer_two_add"
+
+        />
+
+    <Button
+        android:id="@+id/btn_observer_three_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+
+        app:layout_constraintTop_toTopOf="@id/tv_observer_three"
+        app:layout_constraintLeft_toRightOf="@id/tv_observer_three"
+
+
+        />
+
+    <Button
+        android:id="@+id/btn_observer_three_remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REMOVE"
+
+        app:layout_constraintTop_toTopOf="@id/tv_observer_three"
+        app:layout_constraintLeft_toRightOf="@id/btn_observer_three_add"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
