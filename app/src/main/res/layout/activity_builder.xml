@@ -6,4 +6,104 @@
     android:layout_height="match_parent"
     tools:context=".BuilderActivity">
 
+    <EditText
+        android:id="@+id/et_builder_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="first name"
+
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <EditText
+        android:id="@+id/et_builder_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="last name"
+
+        app:layout_constraintTop_toBottomOf="@id/et_builder_first_name"
+        />
+
+    <EditText
+        android:id="@+id/et_builder_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="age"
+
+        app:layout_constraintTop_toBottomOf="@id/et_builder_last_name"
+        />
+
+    <EditText
+        android:id="@+id/et_builder_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="phone"
+
+        app:layout_constraintTop_toBottomOf="@id/et_builder_age"
+        />
+
+    <EditText
+        android:id="@+id/et_builder_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="address"
+
+        app:layout_constraintTop_toBottomOf="@id/et_builder_phone"
+
+        />
+
+    <Button
+        android:id="@+id/btn_builder_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INPUT"
+
+        app:layout_constraintTop_toBottomOf="@id/et_builder_address"
+        />
+
+    <TextView
+        android:id="@+id/tv_builder_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toBottomOf="@id/btn_builder_input"
+        />
+
+    <TextView
+        android:id="@+id/tv_builder_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toBottomOf="@id/tv_builder_1"
+        />
+
+    <TextView
+        android:id="@+id/tv_builder_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toBottomOf="@id/tv_builder_2"
+        />
+
+    <TextView
+        android:id="@+id/tv_builder_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toBottomOf="@id/tv_builder_3"
+        />
+
+    <TextView
+        android:id="@+id/tv_builder_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toBottomOf="@id/tv_builder_4"
+        />
+
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
