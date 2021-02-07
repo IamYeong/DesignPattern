@@ -49,5 +49,185 @@
         app:layout_constraintLeft_toRightOf="@id/btn_factory_main"
         />
 
+    <Button
+        android:id="@+id/btn_abstractfactory_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="ABSTRACT FACTORY"
+
+        app:layout_constraintTop_toBottomOf="@id/btn_singleton_main"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <Button
+        android:id="@+id/btn_builder_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUILDER"
+        app:layout_constraintTop_toBottomOf="@+id/btn_singleton_main"
+        app:layout_constraintLeft_toRightOf="@+id/btn_abstractfactory_main"
+        />
+
+    <Button
+        android:id="@+id/btn_prototype_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROTOTYPE"
+        app:layout_constraintTop_toBottomOf="@+id/btn_singleton_main"
+        app:layout_constraintLeft_toRightOf="@+id/btn_builder_main"
+        />
+
+    <Button
+        android:id="@+id/btn_chain_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHAIN OF RESPONSIBILITY"
+        app:layout_constraintTop_toBottomOf="@id/btn_abstractfactory_main"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        />
+
+    <Button
+        android:id="@+id/btn_command_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COMMAND"
+
+        app:layout_constraintTop_toBottomOf="@id/btn_abstractfactory_main"
+        app:layout_constraintLeft_toRightOf="@id/btn_chain_main"
+        />
+
+    <Button
+        android:id="@+id/btn_iterator_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ITERATOR"
+
+        app:layout_constraintTop_toBottomOf="@id/btn_abstractfactory_main"
+        app:layout_constraintLeft_toRightOf="@id/btn_command_main"
+        />
+
+    <Button
+        android:id="@+id/btn_mediator_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MEDIATOR"
+
+        app:layout_constraintTop_toBottomOf="@id/btn_chain_main"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        />
+
+    <Button
+        android:id="@+id/btn_memento_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MEMENTO"
+        app:layout_constraintTop_toBottomOf="@id/btn_chain_main"
+        app:layout_constraintLeft_toRightOf="@id/btn_mediator_main"
+        />
+
+    <Button
+        android:id="@+id/btn_state_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STATE"
+        app:layout_constraintTop_toBottomOf="@id/btn_chain_main"
+        app:layout_constraintLeft_toRightOf="@id/btn_memento_main"
+        />
+
+    <Button
+        android:id="@+id/btn_visitor_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VISITOR"
+
+        app:layout_constraintTop_toBottomOf="@id/btn_chain_main"
+        app:layout_constraintLeft_toRightOf="@id/btn_state_main"
+        />
+
+    <Button
+        android:id="@+id/btn_templete_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEMPLETE METHOD"
+
+        app:layout_constraintTop_toBottomOf="@id/btn_mediator_main"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        />
+
+    <Button
+        android:id="@+id/btn_adapter_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADAPTER"
+        app:layout_constraintTop_toBottomOf="@id/btn_mediator_main"
+        app:layout_constraintLeft_toRightOf="@id/btn_templete_main"
+        />
+
+    <Button
+        android:id="@+id/btn_bridge_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BRIDGE"
+
+        app:layout_constraintTop_toBottomOf="@id/btn_mediator_main"
+        app:layout_constraintLeft_toRightOf="@id/btn_adapter_main"
+        />
+
+    <Button
+        android:id="@+id/btn_composite_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COMPOSITE"
+
+        app:layout_constraintTop_toBottomOf="@id/btn_templete_main"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        />
+
+    <Button
+        android:id="@+id/btn_decorator_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DECORATOR"
+
+        app:layout_constraintTop_toBottomOf="@id/btn_templete_main"
+        app:layout_constraintLeft_toRightOf="@id/btn_composite_main"
+        />
+
+    <Button
+        android:id="@+id/btn_facade_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FACADE"
+        app:layout_constraintTop_toBottomOf="@id/btn_templete_main"
+        app:layout_constraintLeft_toRightOf="@id/btn_decorator_main"
+        />
+
+    <Button
+        android:id="@+id/btn_proxy_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROXY"
+        app:layout_constraintTop_toBottomOf="@id/btn_templete_main"
+        app:layout_constraintLeft_toRightOf="@id/btn_facade_main"
+        />
+
+    <Button
+        android:id="@+id/btn_flyweight_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FLY WEIGHT"
+        app:layout_constraintTop_toBottomOf="@id/btn_composite_main"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
