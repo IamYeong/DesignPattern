@@ -24,6 +24,12 @@ public class ObserverActivity extends AppCompatActivity implements View.OnClickL
 
         switch (v.getId()) {
 
+            case R.id.btn_observer :
+                String m = editText.getText().toString();
+                publisher.notifyUpdate(m);
+                break;
+
+
             case R.id.btn_observer_one_add :
                 publisher.attach(observerOne);
                 break;
@@ -72,16 +78,14 @@ public class ObserverActivity extends AppCompatActivity implements View.OnClickL
         tv_two = findViewById(R.id.tv_observer_two);
         tv_three = findViewById(R.id.tv_observer_three);
 
+        btn_one_add.setOnClickListener(this);
+        btn_two_add.setOnClickListener(this);
+        btn_three_add.setOnClickListener(this);
+        btn_one_remove.setOnClickListener(this);
+        btn_two_remove.setOnClickListener(this);
+        btn_three_remove.setOnClickListener(this);
+        btn_input.setOnClickListener(this);
 
-        btn_input.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                String m = editText.getText().toString();
-                publisher.notifyUpdate(m);
-
-            }
-        });
 
 
 
