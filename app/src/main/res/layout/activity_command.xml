@@ -6,4 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".CommandActivity">
 
+    <Button
+        android:id="@+id/btn_command"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="ANY ORDER"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tv_command"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="work"
+
+        app:layout_constraintTop_toBottomOf="@id/btn_command"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

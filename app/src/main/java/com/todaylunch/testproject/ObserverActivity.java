@@ -88,7 +88,5 @@ public class ObserverActivity extends AppCompatActivity implements View.OnClickL
 
 
 
-
-
     }
 }
