@@ -2,5 +2,5 @@ package com.todaylunch.testproject;
 
 public interface State {
 
-    void doSometing();
+    void updateState(StateManager manager);
 }

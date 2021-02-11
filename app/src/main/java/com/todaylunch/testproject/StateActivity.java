@@ -10,5 +10,14 @@ public class StateActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_state);
+
+        StateManager manager = new StateManager(null);
+
+        manager.stateUpdate();
+        manager.stateUpdate();
+        manager.stateUpdate();
+        manager.stateUpdate();
+        manager.stateUpdate();
+
     }
 }
