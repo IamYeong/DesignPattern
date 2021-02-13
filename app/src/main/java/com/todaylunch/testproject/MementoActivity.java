@@ -16,11 +16,15 @@ public class MementoActivity extends AppCompatActivity {
         System.out.println(article);
 
         MementoableArticle memento = article.createMemento();
+        //여기까지의 상태를 memento에 저장
 
         article.setContent("DEF");
+        article.setTitle("ddddddd");
         System.out.println(article);
+        //원치 않는 정보 입력
 
         article.restore(memento);
+        //저장돼있던 memento정보를 restore 메서드를 통해 다시 setter
         System.out.println(article);
 
     }

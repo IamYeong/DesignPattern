@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AbstractFactoryActivity"></activity>
+        <activity android:name=".InterpreterActivity"></activity>
+        <activity android:name=".AbstractFactoryActivity" />
         <activity android:name=".FlyweightActivity" />
         <activity android:name=".ProxyActivity" />
         <activity android:name=".FacadeActivity" />
