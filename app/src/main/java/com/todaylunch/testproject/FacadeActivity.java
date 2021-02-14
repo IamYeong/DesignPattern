@@ -10,5 +10,8 @@ public class FacadeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_facade);
+
+        Facade movieFacade = new Facade("BEGIN AGAIN", "COKE");
+        movieFacade.view();
     }
 }
