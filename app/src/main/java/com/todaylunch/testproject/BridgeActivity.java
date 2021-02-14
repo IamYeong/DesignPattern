@@ -10,5 +10,14 @@ public class BridgeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bridge);
+
+        BridgeAnimal fishA = new BridgeFish(new BridgeHunting1());
+        BridgeAnimal tigerA = new BridgeTiger(new BridgeHunting2());
+
+        fishA.HUNT();
+        tigerA.HUNT();
+
+
+
     }
 }

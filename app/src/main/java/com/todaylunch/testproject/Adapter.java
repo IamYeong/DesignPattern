@@ -4,7 +4,7 @@ public class Adapter implements AdapterMediaPlayer {
 
     private AdapterMediaPackage adapterMediaPackage;
 
-    public Adapter(AdapterMediaPackage adapterMediaPackage) {
+    Adapter(AdapterMediaPackage adapterMediaPackage) {
         this.adapterMediaPackage = adapterMediaPackage;
     }
 
