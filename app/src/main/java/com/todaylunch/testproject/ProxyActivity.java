@@ -10,5 +10,9 @@ public class ProxyActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_proxy);
+
+        ProxyInterface proxy = new Proxy();
+        proxy.doSomething("YAY!");
+
     }
 }
